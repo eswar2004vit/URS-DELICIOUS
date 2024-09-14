@@ -1,0 +1,126 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #1f6bdf 0%, #c3cfe2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background: #f9f9f9;
+    transition: background 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+    background: #e8f0fe;
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+button {
+    padding: 12px;
+    margin: 20px 0;
+    background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+}
+
+button:hover {
+    background: linear-gradient(135deg, #0056b3 0%, #003f7f 100%);
+}
+
+button:active {
+    transform: scale(0.97);
+    box-shadow: 0 2px 5px rgba(0, 123, 255, 0.2);
+}
+
+/* Links */
+p {
+    text-align: center;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    input[type="text"], input[type="email"], input[type="password"] {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

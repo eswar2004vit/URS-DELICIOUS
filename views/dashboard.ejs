@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UR'S DELICIOUS Dashboard</title>
+    <link rel="stylesheet" href="/static/styles.css"> <!-- Ensure the stylesheet exists -->
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        .logout-button {
+            background-color: #e74c3c;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .logout-button:hover {
+            background-color: #c0392b;
+        }
+
+        /* Food Section Styles */
+        h2 {
+            text-align: center;
+            margin: 40px 0 20px;
+            font-size: 2.5rem;
+            color: #34495e;
+        }
+
+        .food-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .food-item {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .food-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .food-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .food-item .food-name {
+            text-align: center;
+            padding: 15px;
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>Welcome, <%= user %></h1>
+            <form action="/logout" method="POST">
+                <button type="submit" class="logout-button">Logout</button>
+            </form>
+        </div>
+
+        <!-- Main Content -->
+        <h2>Wide Range of Foods</h2>
+        <div class="food-grid">
+            <!-- Food Item: Pizza -->
+            <div class="food-item">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.2dhr5Ln6cMHIu9SmwE_uBgHaE7&pid=Api&P=0&h=220" alt="Pizza">
+                <div class="food-name">Pizza</div>
+            </div>
+            <!-- Food Item: Sandwich -->
+            <div class="food-item">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.JF9FhleFcVXI5koDPB5tlAHaE8&pid=Api&P=0&h=220" alt="Sandwich">
+                <div class="food-name">Sandwich</div>
+            </div>
+            <!-- Food Item: Burger -->
+            <div class="food-item">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.qxEXukTAAs7jTyaukF-EEAHaFj&pid=Api&P=0&h=220" alt="Burger">
+                <div class="food-name">Burger</div>
+            </div>
+            <!-- Add more food items as needed -->
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 URs. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

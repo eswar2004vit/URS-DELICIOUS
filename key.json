@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "the-majestic-royale",
+    "private_key_id": "b66f377dc194d1420bf01587490883e910e2fdb9",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCSQY/Q0vc3dWJr\nd/7/TnaX1VF7yX8nwOgZjeZYu4Ssa8SrH1MBbmuYGZjeLzV5rpLxl1qN16t8vmSq\nu67wvvJS6O5cenqwTztNu4mV61Tibd1FFnhG5Pdww3Q4VIagNDTC3viYVmWv9sjv\nucmSR72aTw5LletH2e4fNz650sPMO6bF64Fcudn1FNKnZFjV87lrFAA5xe2ADCtj\n3kZuCMZArmfKEPIQdmxLLcgcM5h2B2WVVjCqtGAwie/Vw3nG1IBWbTSEGCwjIuzo\nAL0jSYy1ZiIbZE/1zXkj5wn7t7jEQi6ZMcS7g2eudpCBAdNGBa7ywaHWadHHND3d\nR1Pdl4ffAgMBAAECggEAPPgHs82+MOhGNva23kcfOPw8E5ZT44aPOtfkhmjlTds/\nCPbt61LUl3tUNosHh8o2h2/I2Ahn/ICCBopmywVOjzF67CJCsuzUk/rxyAVqRVn3\nO626RhN88w0HjdPuqyoYNIQurZKWoVwHN6gDV2+AoqsCEpBUnIdEtM6a32v1I1W5\nD7pyiY3WBUuWVgm1nhfmMPAso+lXhmpGGldLlJP9yDZNn9KsDlqrglxNOJDc6bRu\n/YDDSk701qYpGaUEAQXiCo4kp/Gi+JYEU8gavx+cnALrRdOdi2VXXX8MSlCLt24k\n9PwJgWM9jx4h+oioZIN/dekzVe/pLNLUqTt0vx+CwQKBgQDLg0fwLfpwlPwQU/Tk\nLYVJ8pSfg8fDxI4U7A4zN5zO5wmctWREYIbR9noqixrqyXT91mx6avlPi7eEC4Fp\nYW7VOopqxoNgwxyoJV9L+5IQRuiS5qs9Sd4MJfg2gQ5hjNw6ok9zqtqlTZ/3W5bp\nfAxfnSo8WVhasGBiRbgm5xn/QwKBgQC3+fduD+8q05mpf3A+/GnlwU1mXq3rg9pT\nS4inh2Lfn1JHYzu/S0WktCG9mwJwGufINJuXtcbqz0xQWvR/vC/kE7aRKT6iWWsf\nj8OQbA+u2RfEDFP9nb15aMVHla2OnVS+yTjWrIniXZSLklCS26D3PTjbHTwNfxBq\nDzMjt9slNQKBgA4IbGJ0WSuAKm1ZzK4bMXCq6HKjXJf0KrPonwYLFKXzqmcC3voU\nCdfafgwG8YE1CPsj2PEMBUrl4G6beH3yuPi9A6RfMdnvOj+h7BNKMoUqzoiqnS4p\ntMTzrUzc00gItXrZjE72fgMd+iTNTPemlRfWt33Xz07ZkJvWIN+V2eYPAoGBAJix\nXVu629ymnJ1iCM4t/tJS2iOBp0WWPIjvYu7wXe6Ns+NOCBOfrKCjZHGSirZyjjbK\n+uwyUXMnNAZpRw4RKYpZlifqnHJwVolub3iZR3bt9VyggsE2v0BZ5YqhPtfj2qcy\nKPt7XkFDO/uPJ1KL+I/a/ypUnDfzYrM0BFS7zqWVAoGAPJzWdaZ1X8djzpwfUBGm\nppEhzQogXDIwBBKEF7EJgDt/QkKPi52/UahqKLxVPhwvdwLnfU4BTeUVMUrZf38P\nVOHaCzJPhPBm/LWTcSo2reO7QZoyq+B+sIHK4bhtXLQLlfklmP5OghQs8sGKbF9s\nW37c3PdnRm/GjMcshhSJ95o=\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-1msjo@the-majestic-royale.iam.gserviceaccount.com",
+    "client_id": "107495141276969273025",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-1msjo%40the-majestic-royale.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  
